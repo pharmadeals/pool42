@@ -1,0 +1,5 @@
+Credentials cache: API:D99D9D51-1C83-4D3D-926A-90D1FB653BBE
+        Principal: flcarre@42.FR
+
+  Issued                Expires               Principal
+Jul 30 10:43:18 2018  Aug  6 10:43:18 2018  krbtgt/42.FR@42.FR
