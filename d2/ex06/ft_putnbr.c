@@ -16,16 +16,20 @@ void	ft_putchar(char c);
 
 void	ft_putnbr(int nb)
 {
+	unsigned int x;
+	
 	if (nb < 0)
 	{
 		ft_putchar('-');
-		ft_putnbr(nb * -1);
+		x = nb * -1;
 	}
-	else if (nb < 10)
-		ft_putchar(nb + 48);
+	else
+		x = nb;
+	if (x < 10)
+		ft_putchar(x + 48);
 	else
 	{
-		ft_putnbr(nb / 10);
-		ft_putnbr(nb % 10);
+		ft_putnbr(x / 10);
+		ft_putnbr(x % 10);
 	}
 }
